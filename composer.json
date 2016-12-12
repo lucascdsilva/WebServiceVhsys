@@ -1,0 +1,13 @@
+{
+    "name": "lucas/web-service-vhsys",
+    "authors": [
+        {
+            "name": "Lucas Carvalho",
+            "email": "lucas.cdsilva@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"WebServiceVhsys\\": "WebServiceVhsys"}
+    }
+}
