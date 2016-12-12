@@ -1,6 +1,8 @@
 {
     "name": "lucas/web-service-vhsys",
     "minimum-stability": "dev",
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Lucas Carvalho",
