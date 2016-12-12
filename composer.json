@@ -1,12 +1,15 @@
 {
     "name": "lucas/web-service-vhsys",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Lucas Carvalho",
             "email": "lucas.cdsilva@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^5.6"
+    },
     "autoload": {
         "psr-4": {"WebServiceVhsys\\": "WebServiceVhsys"}
     }
