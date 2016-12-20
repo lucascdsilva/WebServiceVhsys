@@ -20,6 +20,7 @@ class CommunicationVHSYS
 	public function transmit($params=[])
 	{
 		$params = $this->validParams($params);
+		$params['TOKEN'] = $this->token;
 		if (!function_exists('curl_exec')) die("Not exist function 'curl_exec'");
 
 		$ch = curl_init();
