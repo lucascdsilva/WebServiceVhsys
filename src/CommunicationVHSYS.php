@@ -40,6 +40,10 @@ class CommunicationVHSYS
 
 	private function decodeResponse($response)
 	{
+		if ($xml = @simplexml_load_string($response)) {
+			$response = json_encode($xml);
+		}
+
 		$data = json_decode($response, true);
 		return $data;
 	}
